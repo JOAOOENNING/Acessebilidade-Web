@@ -193,4 +193,34 @@ h2 {
 }
 .alto-contraste .fundo-galeria {
     background: none;
+}/* Definindo o modo de alto contraste */
+.alto-contraste {
+    background-color: #000000; /* Fundo preto */
+    color: #FFFFFF; /* Texto branco */
+}
+
+.alto-contraste a {
+    color: #FFFF00; /* Links em amarelo */
+}
+
+.alto-contraste .btn {
+    background-color: #FFFF00; /* Botões amarelos */
+    color: #000000; /* Texto dos botões preto */
+}
+
+.alto-contraste header {
+    background-color: #333333; /* Cabeçalho escuro */
+}
+
+.alto-contraste footer {
+    background-color: #333333; /* Rodapé escuro */
+}
+
+.alto-contraste .nav-link {
+    color: #FFFF00; /* Links de navegação amarelos */
+}
+
+.alto-contraste .opcoes-acessibilidade {
+    background-color: #000000;
+    color: #FFFFFF;
 }
